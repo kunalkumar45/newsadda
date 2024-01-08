@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const NavBar = () => {
+const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -70,5 +70,5 @@ const NavBar = () => {
 
 }
 
-export default NavBar;
+export default Navbar;
 
