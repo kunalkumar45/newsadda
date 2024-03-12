@@ -1,5 +1,3 @@
-import "./App.css";
-
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";

@@ -4,10 +4,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div className="container">
+      <div className="container">
+
           <Link className="navbar-brand" to="/">
             News Adda
-          </Link>
+        </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,42 +25,42 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/">
                   Home
-                </Link>
+              </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/general">
+              <Link className="nav-link" to="/general">
                   General
-                </Link>
+            </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/business">
+              <Link className="nav-link" to="/business">
                   Business
-                </Link>
+            </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/entertainment">
+              <Link className="nav-link" to="/entertainment">
                   Entertainment
-                </Link>
+            </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/health">
+              <Link className="nav-link" to="/health">
                   Health
-                </Link>
+            </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/sports">
+              <Link className="nav-link" to="/sports">
                   Sports
-                </Link>
+            </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/science">
+              <Link className="nav-link" to="/science">
                   Science
-                </Link>
+            </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/technology">
+              <Link className="nav-link" to="/technology">
                   Technology
-                </Link>
+            </Link>
               </li>
             </ul>
           </div>
